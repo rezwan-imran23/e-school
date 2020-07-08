@@ -54,18 +54,18 @@ header{
  }
  
  
- .card{
+ .fetures-card{
      height: 250px;
      border: none;
      border-radius: 8px;
      background-color: #F0FFF0 ;
  }
 
- .card:hover{
+ .fetures-card:hover{
      background-color: white;
      box-shadow: 5px 5px 10px lightgrey;
  }
- .card img{
+ .fetures-card img{
      margin-top: 40px;
  }
  
@@ -77,4 +77,20 @@ header{
  }
  .container{
      margin-bottom: 50px;
+ }
+ .head-title h5{
+     
+font-size: 35px;
+     
+font-weight: 700;
+     
+padding-bottom: 40px;
+ }
+
+ .card-body h6{margin: 0px 0px 0px 4px;}
+
+ .card{
+     border: none;
+     border-radius: 8px;
+     box-shadow:5px 5px 10px lightgrey ;
  }
