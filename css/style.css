@@ -1,47 +1,80 @@
 header{
-   margin-bottom: 80px;
-}
-.nav-item{
-    
-    padding: 0px 20px;
-    }
-.navbar-brand img{
+    margin-bottom: 50px;
+ }
+ .nav-item{
+     
+     padding: 0px 20px;
+     }
+ .navbar-brand img{
+ 
+ margin-bottom: 6px;
+ }    
+     
+     
+     
+     header{
+         background-color: #F0FFF0;
+         height: 600px;
+     }
+     
+     .nav-link{
+         
+     color: #000;
+         
+     font-weight: 500;
+         
+     font-size: 16px;
+     }
+     
+     .btn{
+         background-color:#21B573;
+         border: none;
+     }
+     .title{
+         
+ font-weight: 800;
+         
+ font-size: 44px;
+     }
+     
+ span{
+        color: #21B573 ;
+     }
+ 
+ .sub-title{
+     color: #FD511A;
+ 
+     }
+ 
+ .box-1,.box-2,.box-3,.box-4{
+     height: 270px;
+     width: 260px;
+     background-color: #F0FFF0;
+ 
+ }
+ 
+ 
+ .card{
+     height: 250px;
+     border: none;
+     border-radius: 8px;
+     background-color: #F0FFF0 ;
+ }
 
-margin-bottom: 6px;
-}    
-    
-    
-    
-    header{
-        background-color: #F0FFF0;
-        height: 600px;
-    }
-    
-    .nav-link{
-        
-    color: #000;
-        
-    font-weight: 500;
-        
-    font-size: 16px;
-    }
-    
-    .btn{
-        background-color:#21B573;
-        border: none;
-    }
-    .title{
-        
-font-weight: 800;
-        
-font-size: 44px;
-    }
-    
-span{
-       color: #21B573 ;
-    }
-
-.sub-title{
-    color: #FD511A;
-
-    }
+ .card:hover{
+     background-color: white;
+     box-shadow: 5px 5px 10px lightgrey;
+ }
+ .card img{
+     margin-top: 40px;
+ }
+ 
+ .card-title h5{
+ 
+ font-size: 25px;
+ 
+ font-weight: 600;
+ }
+ .container{
+     margin-bottom: 50px;
+ }
